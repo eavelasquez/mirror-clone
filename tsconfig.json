@@ -25,9 +25,12 @@
     }
   },
   "include": [
-    "next-env.d.ts",
+    "./typechain",
+    "./web3/scripts",
+    "./web3/test",
     "**/*.ts",
-    "**/*.tsx"
+    "**/*.tsx",
+    "next-env.d.ts"
   ],
   "exclude": [
     "node_modules"
