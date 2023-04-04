@@ -17,9 +17,11 @@ module.exports = {
   plugins: ['react'],
   rules: {
     '@typescript-eslint/explicit-function-return-type': 'off',
-    '@typescript-eslint/triple-slash-reference': 'off',
+    '@typescript-eslint/key-spacing': 'off',
+    '@typescript-eslint/restrict-template-expressions': 'off',
     '@typescript-eslint/space-before-function-paren': 'off',
-    'react/react-in-jsx-scope': 'off',
-    'react/prop-types': 'off'
+    '@typescript-eslint/triple-slash-reference': 'off',
+    'react/prop-types': 'off',
+    'react/react-in-jsx-scope': 'off'
   }
 }
